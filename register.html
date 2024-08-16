@@ -1,0 +1,36 @@
+<!doctype HTML>
+
+<head>
+	<title>Brick Breaker - Register</title>
+	<script src="register.js"> </script>
+	<style type="text/css">
+		 .textsetup {font-size:20px; color: white}
+		 .inputsetup {font-size:20px; color: white; background-color: #373737}
+	</style>
+</head>
+
+
+<body style="background-color: black" onload="SetHandlers()">
+	<form action="reg_result.php" method="post">
+		<p class="textsetup">Username:</p>
+		<input type="text" name="user" class="inputsetup" id="username">
+		
+		<br>
+		<br>
+
+		<p class="textsetup">Password:</p>
+		<input type="password" name="pass" class="inputsetup" id="pass">
+
+		<br>
+		<br>
+
+		<p class="textsetup">Repeat Password:</p>
+		<input type="password" name="pass" class="inputsetup" id="check_pass">
+
+		<br> <br>
+		<input type="submit" style="background-color: #373737; color: white" id="submit_account" value="Create account" style="background-color: #373737; color: white">
+	</form>
+	<br>
+	<a class="textsetup" href="login.html">Back to Login</a>
+	<span id="error_text"></span>
+</body>

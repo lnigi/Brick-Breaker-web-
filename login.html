@@ -1,0 +1,38 @@
+<!doctype HTML>
+
+<head>
+	<title>Brick Breaker - Login</title>
+	<style type="text/css">
+		 .textsetup {font-size:20px; color: white}
+		 .inputsetup {font-size:20px; color: white; background-color: #373737}
+	</style>
+	<script src="login.js"></script>
+</head>
+
+
+<body style="background-color: black" onload="SetHandlers()">
+	<form action="homepage.php" method="post">
+		<p class="textsetup">Username:</p>
+		<input type="text" name="user" class="inputsetup" id="username">
+		
+		<br>
+		<br>
+
+		<p class="textsetup">Password:</p>
+		<input type="password" name="pass" class="inputsetup" id="password">
+
+		<br> <br>
+		<span class="textsetup" style="color: red" id="errors"></span> <br>
+		<input type="submit" value="Login" style="background-color: #373737; color: white" id="send_data">
+	</form>
+
+	<br>
+	<p class="textsetup">Don't have an account? Create one here:</p>
+	<a href="register.html" class="textsetup">Register</a>
+
+	<br>
+	<br>
+
+	<a class="textsetup" href="homepage.php">Back to Home page</a>
+
+</body>
