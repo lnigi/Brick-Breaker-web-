@@ -1,8 +1,8 @@
 <?php 
     session_start();
 
-    $_REQUEST['user'] = "test";
-    $_REQUEST['score'] = 32;
+    //$_REQUEST['user'] = "test";
+    //$_REQUEST['score'] = 32;
 
     $username = $_REQUEST['user'];
     $score = $_REQUEST['score'];
